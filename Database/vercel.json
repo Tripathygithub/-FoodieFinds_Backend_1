@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "builds": [{ "src": "Database/index.js", "use": "@vercel/node" }],
+  "rewrites": [{ "source": "/(.*)", "destination": "/Database/index.js" }]
+}
